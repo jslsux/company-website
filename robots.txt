@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /apps/cs-quiz/privacy.html
+Disallow: /apps/cs-quiz/terms.html
 
 Sitemap: https://scottenterprises.co.uk/sitemap.xml
