@@ -1,110 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCOTT ENTERPRISES LTD</title>
-    <style>
-        :root {
-            --primary: #1a237e;
-            --accent: #64b5f6;
-            --background: #f5f7fa;
-            --text: #222;
-            --white: #fff;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
-            background: var(--background);
-            color: var(--text);
-            min-height: 100vh;
-        }
-        header {
-            background: var(--primary);
-            color: var(--white);
-            padding: 2rem 0 1.5rem 0;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(26,35,126,0.08);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-        }
-        header p {
-            margin: 0.5rem 0 0 0;
-            font-size: 1.2rem;
-            font-weight: 300;
-        }
-        main {
-            max-width: 600px;
-            margin: 2.5rem auto;
-            background: var(--white);
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(100,181,246,0.08);
-            padding: 2rem 2.5rem;
-        }
-        .section-title {
-            color: var(--primary);
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-        ul {
-            padding-left: 1.2rem;
-        }
-        li {
-            margin-bottom: 0.7rem;
-            font-size: 1.05rem;
-        }
-        footer {
-            text-align: center;
-            color: #888;
-            font-size: 0.95rem;
-            margin: 3rem 0 1rem 0;
-        }
-        @media (max-width: 700px) {
-            main {
-                padding: 1.2rem 1rem;
-            }
-            header h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <title>Scott Enterprises Ltd | iOS App Studio</title>
+    <meta name="description" content="Scott Enterprises Ltd is a UK-based iOS app studio building consumer mobile apps including GCSE &amp; A Level CS Quiz, BetReset, and GSC Dashboard.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://scottenterprises.co.uk/">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>SCOTT ENTERPRISES LTD</h1>
-        <p>Mobile App Development Studio</p>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="brand" href="index.html">
+                SCOTT ENTERPRISES LTD
+                <span>Mobile App Development Studio</span>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="apps/index.html">Apps</a>
+                <a href="mailto:information@scottenterprises.co.uk">Contact</a>
+            </nav>
+        </div>
     </header>
+
+    <section class="hero">
+        <div class="page-shell">
+            <h1>SCOTT ENTERPRISES LTD</h1>
+            <p>UK-based independent studio building polished, user-friendly iOS apps for education, productivity, and consumer markets.</p>
+        </div>
+    </section>
+
     <main>
-        <div>
-            <h2 class="section-title">Who We Are</h2>
-            <p>
-                SCOTT ENTERPRISES LTD is an independent mobile app development studio focused on creating innovative, user-friendly iOS applications that solve real problems for consumers.
-            </p>
-        </div>
-        <div>
-            <h2 class="section-title">What We Do</h2>
-            <ul>
-                <li>Innovative consumer mobile applications design &amp; development</li>
-                <li>UI/UX design focused on simplicity and usability</li>
-                <li>App store deployment &amp; support</li>
-                <li>Ongoing maintenance and updates</li>
-            </ul>
-        </div>
-        <div>
-            <h2 class="section-title">Get in Touch</h2>
-            <p>
-                <a href="mailto:information@scottenterprises.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">information@scottenterprises.co.uk</a><br>
-                <a href="tel:07340925315" style="color: var(--accent); text-decoration: none; font-weight: 500;">07340925315</a>
-            </p>
+        <div class="page-shell">
+            <section class="card">
+                <h2 class="section-title">Who We Are</h2>
+                <p>
+                    Scott Enterprises Ltd is an independent mobile app development studio focused on creating innovative iOS applications that solve real problems for consumers. We design, build, ship, and support apps on the App Store.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2 class="section-title">What We Do</h2>
+                <ul>
+                    <li>Consumer iOS app design and development</li>
+                    <li>UI/UX focused on simplicity and usability</li>
+                    <li>App Store deployment, subscriptions, and support</li>
+                    <li>Ongoing maintenance and updates</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2 class="section-title">Our Apps</h2>
+                <p class="lead">Explore our published and in-development iOS apps, support pages, and legal information.</p>
+                <div class="button-row">
+                    <a class="button button-primary" href="apps/index.html">View app portfolio</a>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>
+                    <a href="mailto:information@scottenterprises.co.uk">information@scottenterprises.co.uk</a><br>
+                    <a href="tel:07340925315">07340 925 315</a>
+                </p>
+            </section>
         </div>
     </main>
-    <footer>
-        &copy; 2025 SCOTT ENTERPRISES LTD. All rights reserved.
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Scott Enterprises Ltd. All rights reserved.</p>
     </footer>
 </body>
 </html>
