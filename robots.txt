@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /apps/cs-quiz/privacy.html
 Disallow: /apps/cs-quiz/terms.html
+Disallow: /apps/learn-world-flags/privacy.html
+Disallow: /apps/learn-world-flags/terms.html
 
 Sitemap: https://scottenterprises.co.uk/sitemap.xml
